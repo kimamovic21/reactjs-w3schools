@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Car from './useState/Car';
+import Car2 from './useState/Car2';
+import Car3 from './useState/Car3';
+import FavoriteColor from './useState/FavoriteColor';
+import MyInfo from './useState/MyInfo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    {/* <FavoriteColor /> */}
+    {/* <Car /> */}
+    {/* <Car2 /> */}
+    {/* <Car3 /> */}
+    <MyInfo />
+   </>
   );
-}
+};
 
 export default App;

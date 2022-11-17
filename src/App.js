@@ -1,18 +1,27 @@
 import React from 'react';
-import Car from './useState/Car';
-import Car2 from './useState/Car2';
-import Car3 from './useState/Car3';
-import FavoriteColor from './useState/FavoriteColor';
-import MyInfo from './useState/MyInfo';
+import FavoriteColor from './1_useState/FavoriteColor';
+import Car from './1_useState/Car';
+import Car2 from './1_useState/Car2';
+import Car3 from './1_useState/Car3';
+import MyInfo from './1_useState/MyInfo';
+import Timer from './2_useEffect/Timer';
+import Calculation from './2_useEffect/Calculation';
+import EffectCleanup from './2_useEffect/EffectCleanup';
 
 function App() {
   return (
    <>
     {/* <FavoriteColor /> */}
+
     {/* <Car /> */}
     {/* <Car2 /> */}
     {/* <Car3 /> */}
-    <MyInfo />
+
+    {/* <MyInfo /> */}
+
+    {/* <Timer /> */}
+    {/* <Calculation /> */}
+    <EffectCleanup />
    </>
   );
 };
